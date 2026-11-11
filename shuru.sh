@@ -1,0 +1,7 @@
+#!/bin/bash
+for (( b=$#; b>0; b-- ))
+do
+echo $*
+shift
+done
+
